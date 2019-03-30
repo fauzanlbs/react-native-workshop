@@ -1,0 +1,17 @@
+
+
+## install library
+
+- react-navigation
+- react-native-linear-gradient
+- react-native-paper
+- react-native-vector-icons
+
+
+
+
+##error local properties
+
+https://stackoverflow.com/questions/27620262/sdk-location-not-found-define-location-with-sdk-dir-in-the-local-properties-fil/27620622
+
+
