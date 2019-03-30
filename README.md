@@ -1,4 +1,4 @@
-# GraphQl Workshop
+# ReactNative Workshop
 Welcome to React Native Workshop
 
 ## Requirements
