@@ -31,7 +31,7 @@ Welcome to React Native Workshop
 - **`1.3-state`**
   - Learn state
 
-- **`1.3-lifecycle`**
+- **`1.4-lifecycle`**
   - Learn lifecycle
   
 - **`2.0-navigation`**
@@ -44,13 +44,13 @@ Welcome to React Native Workshop
 
 
  ## Snack Expo
-- [**1.1-component**](https://snack.expo.io/@fauzanlbs/rocket-workshop-component)
+- [**1.1 & 1.2-component**](https://snack.expo.io/@fauzanlbs/rocket-workshop-component)
 
-- [**1.3-state**](https://snack.expo.io/@fauzanlbs/rocket-workshop-state)
+- [**1.3 & 1.4-state**](https://snack.expo.io/@fauzanlbs/rocket-workshop-state)
 
 - [**2.0-navigation**](https://snack.expo.io/@fauzanlbs/rocket-workshop-navigation)
 
-- [**2.2-list**](https://snack.expo.io/@fauzanlbs/rocket-workshop-list)
+- [**2.1 & 2.2 & 2.3-list**](https://snack.expo.io/@fauzanlbs/rocket-workshop-list)
 
 - [**ROCKET-NEWS-APP-FINISHED**](https://snack.expo.io/@fauzanlbs/rocket-workshop-final)
 
