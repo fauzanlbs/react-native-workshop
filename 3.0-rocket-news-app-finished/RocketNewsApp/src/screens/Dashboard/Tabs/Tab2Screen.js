@@ -6,9 +6,11 @@ import {
   StyleSheet,
   Image,
   TouchableNativeFeedback,
+  TextInput
 } from 'react-native';
 
 import Separator from '../../../components/Separator';
+import Button from '../../../components/Button';
 
 class Tab2Screen extends React.Component {
   constructor() {
@@ -19,6 +21,16 @@ class Tab2Screen extends React.Component {
       email: 'fauzanlubis23@gmail.com',
       phone: '081281034103',
     };
+
+    this.rubahAlamat = this.rubahAlamat.bind(this)
+  }
+
+  
+
+  rubahAlamat(text){
+    this.setState({
+      alamat: text
+    })
   }
   render() {
     return (
@@ -55,12 +67,18 @@ class Tab2Screen extends React.Component {
         </View>
 
         <Separator />
+        <Separator />
 
-        <TouchableNativeFeedback onPress={() => {}}>
-          <View style={styles.listItemTouch}>
-            <Text>Ganti Password</Text>
-          </View>
-        </TouchableNativeFeedback>
+          <View style={styles.listItem}>
+          <Text style={styles.textSmall}>Alamat Baru</Text>
+          <TextInput style={styles.textInput} onChangeText={this.rubahAlamat} />
+        </View>
+          
+          <Button text = "simpan">
+          
+         </Button>
+
+       
       </View>
     );
   }
@@ -75,11 +93,7 @@ const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: '#fff',
   },
-  listItemTouch: {
-    paddingHorizontal: 10,
-    paddingVertical: 15,
-    backgroundColor: '#fff',
-  },
+  
   textSmall: {
     fontSize: 11,
   },
@@ -88,6 +102,9 @@ const styles = StyleSheet.create({
     margin: 5,
     color: 'black',
   },
+  textInput:{
+    height:40,
+},
   profileHeader: {
     alignItems: 'center',
     paddingVertical: 35,

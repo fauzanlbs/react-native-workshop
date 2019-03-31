@@ -1,8 +1,9 @@
 import React from 'react';
 import { View, Text, ScrollView, FlatList, Image } from 'react-native';
-import { Button } from 'react-native-paper';
+// import { Button } from 'react-native-paper';
 
 import Card from '../../../components/Card';
+import Button from '../../../components/Button';
 
 class Tab1Screen extends React.Component {
   constructor() {
@@ -42,15 +43,14 @@ class Tab1Screen extends React.Component {
         image={{
           uri: item.links.mission_patch,
         }}>
-        <Button
-          raised
+        <Button text = "detail"
           onPress={() =>
             this.props.navigation.navigate('Tab1Details', {
               hideTabBar: true,
               sumber: item.links.article_link,
             })
           }>
-          <Text>Detail</Text>
+          
         </Button>
       </Card>
     );
