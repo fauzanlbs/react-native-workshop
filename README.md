@@ -52,5 +52,7 @@ Welcome to React Native Workshop
 
 - [**2.2-list**](https://snack.expo.io/@fauzanlbs/rocket-workshop-list)
 
+- [**2.2-final-app**](https://snack.expo.io/@fauzanlbs/rocket-workshop-final)
+
 
 
